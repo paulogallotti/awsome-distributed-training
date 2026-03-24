@@ -72,6 +72,8 @@ Compile-time constants in `nccl_sendrecv_test.c`:
 
 ## Example output
 
+> Values are illustrative and will vary based on instance type, message size, and network conditions.
+
 ```
 ---------- NCCL Send/Recv Ring Test ----------
 Ranks           : 16

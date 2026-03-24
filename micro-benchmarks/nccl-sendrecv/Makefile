@@ -1,3 +1,6 @@
+# Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+# SPDX-License-Identifier: MIT-0
+
 CUDA_HOME  ?= /usr/local/cuda
 NCCL_HOME  ?= /usr/local/cuda
 MPI_HOME   ?= /opt/amazon/openmpi
