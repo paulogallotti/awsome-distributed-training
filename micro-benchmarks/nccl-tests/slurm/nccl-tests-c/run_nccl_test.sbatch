@@ -7,8 +7,9 @@
 #SBATCH --output=nccl_test_%j.out
 #SBATCH --error=nccl_test_%j.err
 #SBATCH --wait-all-nodes=1
+#SBATCH --wait-all-nodes=1
 
-###############################################################################
+set -ex
 # NCCL Send/Recv Ring Test — SageMaker HyperPod (Slurm + EFA)
 #
 # Current config: p4d.24xlarge (8 A100 GPUs/node, 2 nodes)
